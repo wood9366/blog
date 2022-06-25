@@ -1,0 +1,23 @@
+---
+layout: page
+title: Archive
+permalink: /archive/
+---
+<div class="archive-content">
+  <ul>
+    {% assign posts_by_date = site.posts | group_by_exp: "item", "item.date | date: '%Y-%m-%d'" %}
+    {% for date in posts_by_date %}
+      <li><span class="archive-date">{{ date.name }}</span><span class="archive-size">({{ date.items | size }})</span>
+        <ul>
+          {% for post in date.items %}
+            <li>
+              <a href="{{ post.url }}">
+                {{ post.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

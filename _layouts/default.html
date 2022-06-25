@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    {% feed_meta %}
+    {% seo %}
+  </head>
+  <body>
+    <div class="site">
+      <div class="site-title">
+        <h1 class="site-title-name">{{ site.title }}</h1>
+        <p class="site-title-desc">{{ site.description }}</p>
+      </div>
+      <nav class="site-navigator">
+        {% assign url = page.url | remove: 'index.html' %}
+        {% for nav in site.navigation %}
+          <a href="{{nav.url}}" {% if url == nav.url %} class="current" {% endif %}>{{nav.name}}</a>
+        {% endfor %}
+      </nav>
+      <div class="site-content">
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>

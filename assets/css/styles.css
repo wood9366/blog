@@ -1,0 +1,65 @@
+html { font-size: 16px; }
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+
+body { font: 400 16px/1.5 -apple-system, Noto Sans, Helvetica Neue, Helvetica, Nimbus Sans L, Arial, Liberation Sans, PingFang SC, Hiragino Sans GB, Noto Sans CJK SC, Source Han Sans SC, Source Han Sans CN, Microsoft YaHei, Wenquanyi Micro Hei, WenQuanYi Zen Hei, ST Heiti, SimHei, WenQuanYi Zen Hei Sharp, sans-serif; color: #111111; background-color: #fdfdfd; font-kerning: normal; display: flex; flex-direction: column; min-height: 100vh; overflow-wrap: break-word; }
+
+img { max-width: 100%; vertical-align: middle; }
+
+.site { padding: 5px 5px 5px; min-width: 800px; width: 80%; margin: 0 auto 0; display: block; }
+
+.site-title { margin-bottom: 10px; }
+
+.site-title .site-title-name { font-size: 2rem; }
+
+.site-title .site-title-desc { font-size: 0.8rem; }
+
+.site-navigator a { color: #2a2ae2; text-decoration: none; }
+
+.site-navigator a.current { font-weight: bold; }
+
+.home-content .post-intro { padding: 10px 10px; margin: 5px 0px; background: #e4e4e4; }
+
+.home-content .post-intro .desc { margin: 10px 0px; padding-left: 10px; border-left: 6px solid #7e7e7e; }
+
+.home-content .post-intro .desc p, .home-content .post-intro .desc h1, .home-content .post-intro .desc h2, .home-content .post-intro .desc h3, .home-content .post-intro .desc h4, .home-content .post-intro .desc h5, .home-content .post-intro .desc h6 { font-size: 1rem; }
+
+.archive-content .archive-date { font-weight: bold; }
+
+.archive-content .archive-size { padding: 0px 5px; }
+
+.archive-content ul { margin: 5px 0px 15px; list-style-position: outside; list-style-type: none; }
+
+.archive-content ul li { margin: 0; padding: 0; }
+
+.archive-content ul > li > ul { list-style-position: inside; list-style-type: '-'; }
+
+.post-content { padding: 10px; background-color: #e4e4e4; }
+
+.post-content h1, .post-content h2, .post-content h3 { margin-top: 20px; }
+
+.post-content h4, .post-content h5, .post-content h6 { margin-top: 10px; }
+
+.post-content h1 { font-size: 2rem; }
+
+.post-content h2 { font-size: 1.75rem; }
+
+.post-content h3 { font-size: 1.375rem; }
+
+.post-content h4 { font-size: 1.25rem; }
+
+.post-content h5 { font-size: 1.125rem; }
+
+.post-content h6 { font-size: 1.0625rem; }
+
+.post-content ol, .post-content ul { list-style-position: outside; margin-left: 1.5em; }
+
+.post-content .task-list { list-style: none; margin-left: 0em; }
+
+.post-content .task-list .task-list-item-checkbox { margin-right: 1em; }
+
+.post-content pre { font-size: 0.8em; padding: 10px; }
+
+.post-content hr { margin-top: 10px; margin-bottom: 10px; }
+
+/*# sourceMappingURL=styles.css.map */

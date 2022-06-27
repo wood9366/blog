@@ -3,7 +3,7 @@ title: 木头9366的BLOG
 email: wood9366@gmail.com
 description: >-
   //
-baseurl: ""
+baseurl: "/blog"
 url: ""
 github_username:  wood9366
 
@@ -22,7 +22,7 @@ plugins:
 defaults:
   -
     scope:
-      path: ""
+      path: "_posts"
       type: "posts"
     values:
       layout: "post"

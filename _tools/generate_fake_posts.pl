@@ -57,13 +57,17 @@ sub generate_name() {
 my @categories = qw / CateA CateB CateC CateD /;
 my @subcategories = qw / SubCateA SubCateB SubCateC /;
 
+my $post_dir = "../_posts";
+
+mkdir $post_dir unless -e $post_dir;
+
 for (0..100) {
     my $date = generate_date();
 
     for (1..int(rand(20))) {
         my $time = generate_time();
         my $name = generate_name();
-        my $path = "../_posts/$date-$name.md";
+        my $path = "${post_dir}/$date-$name.md";
         my $title = generate_word(5 + int(rand(3)));
         my @cates = ( $categories[int(rand(@categories))] );
 

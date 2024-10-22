@@ -19,7 +19,7 @@ locale                   : "zh-CN"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "木子9366的BLOG"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "无人扶我青云志，我自踏雪至山巅" # site tagline that appears below site title in masthead
 name                     : "李阳"
 description              : "李阳的个人博客"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "李阳"
   avatar           : "/assets/images/bio.jpg"
-  bio              : "无人扶我青云志，我自踏雪至山巅"
+  bio              : "游戏程序员，羽毛球爱好者"
   location         : "中国，杭州"
   email            : 7325560@qq.com
   links:
@@ -227,7 +227,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
@@ -321,5 +321,5 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share: # true
       related: true
